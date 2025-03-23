@@ -76,6 +76,6 @@ La aplicación se comunica con un backend Flask en `http://localhost:5001`:
 
 ## ✉️ Contacto
 
-Juan Carlos - [@jcgmU](https://github.com/jcgmU)
+Juan Camilo - [@jcgmU](https://github.com/jcgmU)
 
 Enlace del proyecto: [https://github.com/jcgmU/EcoShapeFront](https://github.com/jcgmU/EcoShapeFront)
