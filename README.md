@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EcoShape Frontend
 
-## Getting Started
+Aplicación web para el cálculo de volúmenes y resistencia de macetas y conos. Desarrollada con Next.js y TailwindCSS.
 
-First, run the development server:
+## 🚀 Características
+
+- Cálculo de volumen de macetas cilíndricas
+- Verificación de resistencia de macetas
+- Cálculo de volumen de conos huecos
+- Diseño neumórfico moderno
+- Interfaz responsive
+
+## 🛠 Tecnologías
+
+- Next.js 14
+- TailwindCSS
+- React
+- Flask (Backend)
+
+## 📋 Prerrequisitos
+
+- Node.js 18.17 o superior
+- npm o yarn
+- Python 3.8 o superior (para el backend)
+
+## 🔧 Instalación
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/jcgmU/EcoShapeFront.git
+cd EcoShapeFront
+```
+
+2. Instalar dependencias:
+
+```bash
+npm install
+```
+
+3. Iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Estructura del Proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+frontend/
+├── app/               # Páginas y rutas de la aplicación
+├── components/        # Componentes reutilizables
+│   ├── cards/        # Componentes de tarjetas
+│   └── Header.js     # Componente de navegación
+├── public/           # Archivos estáticos
+└── styles/           # Estilos globales
+```
 
-## Learn More
+## 🔗 API Endpoints
 
-To learn more about Next.js, take a look at the following resources:
+La aplicación se comunica con un backend Flask en `http://localhost:5001`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- POST `/api/volumen-maceta` - Cálculo de volumen de macetas
+- POST `/api/resistencia-maceta` - Verificación de resistencia
+- POST `/api/volumen-cono` - Cálculo de volumen de conos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👥 Contribución
 
-## Deploy on Vercel
+1. Fork del repositorio
+2. Crear rama para nueva característica (`git checkout -b feature/AmazingFeature`)
+3. Commit cambios (`git commit -m 'Add AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abrir Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✉️ Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Juan Carlos - [@jcgmU](https://github.com/jcgmU)
+
+Enlace del proyecto: [https://github.com/jcgmU/EcoShapeFront](https://github.com/jcgmU/EcoShapeFront)
